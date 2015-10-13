@@ -296,7 +296,9 @@ for ind in range(len(mtf_strehl)):
 legend()
 show()
 
-### Last calculation for the last question about Thibos' equation
+### Last calculation for the last questions about Airy disk and Thibos' equation
+d = (1.22*6*10**-7)/arcsin(2.0/(3.0*(10**8)))
+
 tar = [.44,.525,.63]
 for lam in tar:
     K = 1.68524 - (.63346/(lam - .2141))
